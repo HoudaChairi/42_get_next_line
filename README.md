@@ -9,7 +9,6 @@
 - [Design Suggestions](#design-suggestions)
 - [Code Structure](#code-structure)
 - [Installation](#installation)
-- [How to Use](#how-to-use)
 - [Examples](#examples)
 
 ---
@@ -66,5 +65,16 @@ git clone https://github.com/HoudaChairi/42_get_next_line.git
 cd 42_get_next_line
 ```
 ```
-gcc -o 42_get_next_line get_next_line.c get_next_line.h get_next_line_utils.c
+gcc get_next_line.c get_next_line_utils.c -o get_next_line
 ```
+
+## 📌 Examples
+Here's how `get_next_line` behaves when reading from a file:
+
+Assume the content of test.txt:
+
+Hello, world!
+
+This is a test file.
+
+End of the file.
