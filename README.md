@@ -66,5 +66,5 @@ git clone https://github.com/HoudaChairi/42_get_next_line.git
 cd 42_get_next_line
 ```
 ```
-gcc -o get_next_line get_next_line.c get_next_line.h get_next_line_utils.c
+gcc -o 42_get_next_line get_next_line.c get_next_line.h get_next_line_utils.c
 ```
